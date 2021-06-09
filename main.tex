@@ -1,1 +1,199 @@
-Initial copy
+
+% This is an example CV created using altacv.cls (v1.1.3, 30 April 2017) written by
+% LianTze Lim (liantze@gmail.com), based on the 
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options. 
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{228FBF}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Tehzeeb Jafri}
+\tagline{Professional Engineer \& Passionate Educator  }
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{2.5cm}{Teh.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  
+  \location{\hspace{0.05cm} Citizen of United States} \hspace{0.14cm} 
+  % \phone{+1 (260) 241-2942} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Instructor Mechanical Engineering Technology (MET)}{Indiana-University Purdue-University, Fort Wayne (IPFW)}{Sept 2013 -- Present}{Fort Wayne, Indiana U.S.A}
+\begin{itemize}
+\item \b Five \b years of teaching experience in mechanical engineering technology department. Taught instrumental process control, applied engineering statistics, digital \& analogue signals, quality, and electricity. 
+\item Planned, trained and evaluated students through a range of different methods including assignments, quizzes, exams, presentations, group projects, class participation and exams.
+\item Participated in teacher training workshops and conferences, meeting and professional development seminars.
+\item Effectively used teaching tools like Blackboard, SmartBoards, spreadsheets and
+other engineering software. 
+
+\end{itemize}
+
+\divider
+
+\cvevent{Substitute Teacher Science \& Mathematic}{Fort Wayne Community Schools (FWCS)}{Jan 2014 -- Present}{Fort Wayne, Indiana U.S.A}
+\begin{itemize}
+\item Taught science, chemistry and mathematics to primary, middle and high school students as well as individuals with learning challenges and special needs within a mainstreamed, inclusive classroom.
+\item Actively serving variety of schools and task forces focused on curriculum development, textbook review, fund-raising and anti-bullying efforts.
+
+\end{itemize}
+
+\divider
+
+\cvevent{Math Teacher}{Ivy Tech Community College}{2013 --  2013}{Fort Wayne, Indiana U.S.A}
+
+\begin{itemize}
+\item Designed and implemented interactive math lessons using new technologies for the school.
+\item Taught Algebra, Trigonometry, Statistics, Advanced Algebra, Geometry, Math Enrichment and Calculus
+\end{itemize}
+\divider
+
+\cvevent{Senior Test Engineer \& Lead Trainer (Automotive)}{Dana Corporation (ASG Technology Center)}{1999 -- 2009}{Toledo, Ohio U.S.A}
+\begin{itemize}
+\item Taught prototyping, design, and production testing validation of automotive axles, drive shafts and other related parts for GM, Toyota, Ford, Nissan, TATA and Chrysler. 
+\item Conducted gear testing on dynamometers and fatigue testing \& ultimate testing on Tinius Olsen tester. Analyzed fixed design testing on testing equipment. 
+\item Performed statistical analysis and Weibull analysis on test data. Created statistical plots, histograms, charts, plots and presented photographs of tests setups and fracture samples. 
+\item Analyzed and improved processes. Performed fatigue, beam, static torque, gear fatigue, deflection, hot/cold flow, and axle chatter tests.  
+
+\end{itemize}
+\divider
+
+\cvevent{Senior Test Engineer}{Essex Group Incorporated)}{1994 -- 1999}{Fort Wayne, Indiana U.S.A}
+\begin{itemize}
+\item Analyzed field quality and customer issues with motors, coils, and other automotive devises. 
+\item Performed magnet wire product testing, created detailed testing reports and provided recommendations to customers in a timely manner.   
+\item Provided testing data to marketing and sales departments for improve customer relationships and setting new target markets.
+\item Obtained UL, ASTM, ISO and Federal specification approval.
+
+\end{itemize}
+
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+
+
+
+\cvsection {Areas of Expertize}
+{\printinfo{\faTv}{\large\textbf{Software Skills}}
+
+\quad
+
+\begin{itemize}
+\item Microsoft Office 2016: Word, Excel, Power Point, One Note, Access and Project.
+\item Advance Blackboard v10 and Canvas
+\item Lotus notes, Spreadsheet and Databases.
+\item MatLab and Mulit-Sim Circuit Analysis software. 
+\item Megadac Software, Dynamometer Programming and Flex Software.
+
+\end{itemize}
+\quad
+
+{\printinfo{\faIndustry}{\large\textbf{Professional Engineering Skills}}
+
+\quad
+\begin{itemize}
+\item Individual education plan development and project based learning experience for students. 
+\item TQM / ISO 9001 Training and Quality Assurance processes. 
+\item Magnet wire testing, customer support, ASTM, NEMA testing.
+\item Developed and designed the patent for Hyslik-200 Magnet wire insulation.
+\item Researching, analyzing and testing metals, chemicals and insulations.
+
+\end{itemize}
+
+\quad
+
+{\printinfo{\faGroup}{\large\textbf{Soft Skills}}
+
+\quad
+\begin{itemize}
+\item Strong communication and presentation skills.
+\item Inspiring leadership and coaching skills.
+\item Excellent problem solving skills.
+\item Teamwork and collaboration skills.
+
+
+\end{itemize}
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
