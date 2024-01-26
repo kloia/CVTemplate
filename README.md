@@ -1,11 +1,11 @@
 ## Uploading template to overleaf
 1. Download these files as zip by clicking **Code** -> **Download ZIP**
-2. In Overleaf 
-3. Go to http://www.overleaf.com
-4. Create an account.
-5. On the left-hand side click **New Project** -> **Upload Project**
-6. Choose the ZIP file you downloaded.
-7. Edit the CV Template.
+2. Go to http://www.overleaf.com
+3. Create an account.
+4. On the left-hand side click **New Project** -> **Upload Project**
+5. Choose the ZIP file you downloaded.
+6. Edit the CV Template.
+7. Compile and download the PDF.
 
 ## Requirements and Compilation
 * AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons); they're included in both TeX Live 2016 and MikTeX 2.9.
