@@ -12,5 +12,5 @@
 * Loading `academicons` is optional: enable it by adding the `academicons` option to `\documentclass`.
 * Can now be compiled with pdflatex, XeLaTeX and LuaLaTeX!
 * However if you're using `academicons`, you _must_ use either XeLaTeX or LuaLaTeX. If the doc then compiles but the icons don't show up in the output PDF, try compiling with LuaLaTeX instead.
-* The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) font.
+* The samples here use the [Roboto](https://fonts.google.com/specimen/Roboto) font.
 * You can use page2sidebar.tex with the same syntax if your CV exceeds one page with the information on the right-hand side.
